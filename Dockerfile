@@ -12,8 +12,8 @@ RUN set -xe \
                nodejs \
                nodejs-npm \
                python \
-    && npm install -g homebridge \
-    && npm install -g homebridge-knx \
+    && npm install homebridge \
+    && npm install homebridge-knx \
     && apk del avahi-dev \
                build-base \
                python \
