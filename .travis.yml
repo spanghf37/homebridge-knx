@@ -15,14 +15,14 @@ script:
 # build image
 - docker build -t spanghf37/homebridge-knx .
 # test image
-- docker run spanghf37/homebridge-knxd uname -a
+- docker run spanghf37/homebridge-knx uname -a
 # push image
 - >
   if [ "$TRAVIS_BRANCH" == "master" ]; then
     docker login -u="$DOCKER_USER" -p="$DOCKER_PASS"
     TAG=$(grep "FROM " Dockerfile | sed 's/.*://')
-    docker tag spanghf37/homebridge-knxd spanghf37/homebridge-knxd:$TAG
-    docker tag spanghf37/homebridge-knxd spanghf37/homebridge-knxd:latest
-    docker push spanghf37/homebridge-knxd:$TAG
-    docker push spanghf37/homebridge-knxd:latest
+    docker tag spanghf37/homebridge-knx spanghf37/homebridge-knx:$TAG
+    docker tag spanghf37/homebridge-knx spanghf37/homebridge-knx:latest
+    docker push spanghf37/homebridge-knx:$TAG
+    docker push spanghf37/homebridge-knx:latest
   fi
