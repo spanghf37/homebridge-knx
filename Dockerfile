@@ -8,7 +8,7 @@ RUN apt-get install -y curl wget libavahi-compat-libdnssd-dev dbus avahi-daemon 
 
 RUN sed -i.bak 's/^#enable-dbus/enable-dbus/' /etc/avahi/avahi-daemon.conf
 
-RUN sudo npm install -g homebridge
+RUN npm install homebridge
 
 # Run container
 EXPOSE 5353 51826
