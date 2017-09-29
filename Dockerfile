@@ -8,8 +8,9 @@ RUN apt-get install -y curl wget libavahi-compat-libdnssd-dev dbus avahi-daemon 
 
 RUN sed -i.bak 's/^#enable-dbus/enable-dbus/' /etc/avahi/avahi-daemon.conf
 
-RUN useradd --user-group --create-home --shell /bin/false app &&\
-    npm install --global npm@3.7.5
+RUN useradd --user-group --create-home --shell /bin/false app
+
+RUN npm install --global npm@3.7.5
   
 USER app
 
