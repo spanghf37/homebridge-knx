@@ -12,9 +12,9 @@ RUN useradd --user-group --create-home --shell /bin/false app
 
 USER app
 
-RUN npm install --global npm@3.7.5
+RUN npm install npm@3.7.5
 
-RUN npm install --global homebridge
+RUN npm install homebridge
 
 # Run container
 EXPOSE 5353 51826
