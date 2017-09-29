@@ -14,6 +14,10 @@ USER root
 
 RUN npm install npm@3.7.5
 
+USER root
+
+RUN npm install homebridge
+
 # Run container
 EXPOSE 5353 51826
 
