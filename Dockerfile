@@ -10,9 +10,9 @@ RUN sed -i.bak 's/^#enable-dbus/enable-dbus/' /etc/avahi/avahi-daemon.conf
 
 RUN useradd --user-group --create-home --shell /bin/false app
 
-RUN npm install --global npm@3.7.5
-  
 USER app
+
+RUN npm install --global npm@3.7.5
 
 RUN npm install --global homebridge
 
