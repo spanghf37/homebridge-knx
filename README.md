@@ -1,7 +1,7 @@
 ![Build Status](https://travis-ci.org/spanghf37/homebridge-knx.svg?branch=master)
 
 # homebridge-knx
-alpine-homebridge-knx docker container for raspberry-pi
+alpine-homebridge-knx docker container for raspberry-pi 64bits
 
 # 1. Configuration files
 
