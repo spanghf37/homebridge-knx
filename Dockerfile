@@ -15,9 +15,4 @@ RUN npm install -g homebridge-knx
 # Run container
 EXPOSE 5353 51826
 
-CMD set -xe \
-    && rm -f /var/run/dbus.pid \
-    && dbus-daemon --system \
-    && rm -f /var/run/avahi-daemon/pid \
-    && avahi-daemon -D \
-    && homebridge
+CMD homebridge
