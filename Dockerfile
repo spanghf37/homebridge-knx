@@ -10,6 +10,8 @@ RUN sed -i.bak 's/^#enable-dbus/enable-dbus/' /etc/avahi/avahi-daemon.conf
 
 RUN npm install -g homebridge --unsafe-perm
 
+RUN npm install -g homebridge-knx
+
 # Run container
 EXPOSE 5353 51826
 
