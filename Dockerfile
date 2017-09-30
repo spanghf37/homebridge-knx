@@ -1,4 +1,4 @@
-FROM hypriot/rpi-node:slim
+FROM arm32v7/node:latest
 
 COPY tmp/qemu-arm-static /usr/bin/qemu-arm-static
 
@@ -8,15 +8,7 @@ RUN apt-get install -y curl wget libavahi-compat-libdnssd-dev dbus avahi-daemon 
 
 RUN sed -i.bak 's/^#enable-dbus/enable-dbus/' /etc/avahi/avahi-daemon.conf
 
-RUN useradd --user-group --create-home --shell /bin/false app
-
-USER root
-
-RUN npm install npm@3.7.5
-
-USER root
-
-RUN npm install -g homebridge
+RUN npm install -g homebridge --unsafe-perm
 
 # Run container
 EXPOSE 5353 51826
