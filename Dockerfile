@@ -4,7 +4,7 @@ COPY tmp/qemu-aarch64-static /usr/bin/qemu-aarch64-static
 
 RUN apt-get update
 
-RUN apt-get install -y curl wget libavahi-compat-libdnssd-dev dbus avahi-daemon node-gyp make g++ build-essential avahi-discover libnss-mdns
+RUN apt-get install -y curl wget libavahi-compat-libdnssd-dev dbus avahi-daemon make g++ build-essential avahi-discover libnss-mdns
 
 RUN sed -i.bak 's/^#enable-dbus/enable-dbus/' /etc/avahi/avahi-daemon.conf
 
