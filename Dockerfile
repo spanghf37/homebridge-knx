@@ -1,23 +1,14 @@
-FROM arm32v6/alpine:latest
+FROM arm64v8/node:latest
 
-COPY tmp/qemu-arm-static /usr/bin/qemu-arm-static
+COPY tmp/qemu-aarch64-static /usr/bin/qemu-aarch64-static
 
-RUN set -xe \
-    && apk update \
-    && apk add avahi \
-               avahi-compat-libdns_sd \
-               avahi-dev \
-               build-base \
-               dbus \
-               nodejs \
-               nodejs-npm \
-               python \
-    && npm install homebridge \
-    && npm install homebridge-knx \
-    && apk del avahi-dev \
-               build-base \
-               python \
-    && rm -rf /var/cache/apk/*
+RUN apt-get update
+
+RUN apt-get install -y curl wget libavahi-compat-libdnssd-dev dbus avahi-daemon node-gyp make g++ build-essential avahi-discover libnss-mdns
+
+RUN sed -i.bak 's/^#enable-dbus/enable-dbus/' /etc/avahi/avahi-daemon.conf
+
+RUN npm install -g homebridge --unsafe-perm
 
 # Run container
 EXPOSE 5353 51826
