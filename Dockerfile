@@ -16,7 +16,10 @@ RUN npm install -g homebridge-knx --unsafe-perm
 EXPOSE 5353 51826
 
 USER root
+
 RUN mkdir -p /var/run/dbus
+
+RUN chmod +x run.sh
 
 ADD run.sh /root/run.sh
 
