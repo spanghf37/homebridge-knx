@@ -18,7 +18,7 @@ EXPOSE 5353 51826
 USER root
 RUN mkdir -p /var/run/dbus
 
-CMD rm -f /var/run/dbus/pid /var/run/avahi-daemon/pid
+CMD rm -f /var/run/dbus/pid /var/run/avahi-daemon/pid \
     && dbus-daemon --system \
     && avahi-daemon -D \
     && service dbus start \
