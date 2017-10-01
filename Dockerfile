@@ -19,8 +19,8 @@ USER root
 
 RUN mkdir -p /var/run/dbus
 
-RUN chmod +x run.sh
-
 ADD run.sh /root/run.sh
+
+RUN chmod +x /root/run.sh
 
 CMD ["/root/run.sh"]
