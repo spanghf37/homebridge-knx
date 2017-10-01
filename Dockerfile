@@ -15,4 +15,9 @@ RUN npm install -g homebridge-knx --unsafe-perm
 # Run container
 EXPOSE 5353 51826
 
-CMD homebridge
+CMD set -xe \
+    && rm -f /var/run/dbus.pid \
+    && dbus-daemon --system \
+    && rm -f /var/run/avahi-daemon/pid \
+    && avahi-daemon -D \
+    && homebridge
