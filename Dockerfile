@@ -17,7 +17,7 @@ EXPOSE 5353 51826
 
 # USER root
 
-# RUN mkdir -p /var/run/dbus
+RUN mkdir -p /var/run/dbus
 
 # ADD run.sh /root/run.sh
 
