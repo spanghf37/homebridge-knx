@@ -5,12 +5,12 @@
   "AllowKillHomebridge": true,
   "Devices": [
     {
-      "DeviceName": "Brise-soleil (Charles)",
+      "DeviceName": "Brise soleil Charles",
       "Services": [
         {
           "ServiceType": "WindowCovering",
           "Handler": "WindowCoveringTilt",
-          "ServiceName": "Brise-soleil",
+          "ServiceName": "Brise soleil Charles",
           "Characteristics": [
             {
               "Type": "TargetPosition",
@@ -72,19 +72,17 @@
           ],
           "LocalConstants": {
             "ninetyDegRotation": true
-          },
-          "subtype": "SUB_7298ac51-96bc-4854-bff2-1085045c8c47"
+          }
         }
-      ],
-      "UUID": "75a40d36-8198-4337-b721-56baade3b80e"
+      ]
     },
     {
-      "DeviceName": "Brise-soleil (Héloïse)",
+      "DeviceName": "Brise soleil Héloïse",
       "Services": [
         {
           "ServiceType": "WindowCovering",
           "Handler": "WindowCoveringTilt",
-          "ServiceName": "Brise-soleil",
+          "ServiceName": "Brise soleil Héloïse",
           "Characteristics": [
             {
               "Type": "TargetPosition",
@@ -141,19 +139,17 @@
           ],
           "LocalConstants": {
             "ninetyDegRotation": true
-          },
-          "subtype": "SUB_4b14f2b0-2ae5-4152-a8e3-84078ff3b395"
+          }
         }
-      ],
-      "UUID": "724355b1-ea14-4439-9a99-eb96bcc439bd"
+      ]
     },
     {
-      "DeviceName": "Brise-soleil (Louis Sud)",
+      "DeviceName": "Brise soleil sud Louis",
       "Services": [
         {
           "ServiceType": "WindowCovering",
           "Handler": "WindowCoveringTilt",
-          "ServiceName": "Brise-soleil S",
+          "ServiceName": "Brise soleil sud Louis",
           "Characteristics": [
             {
               "Type": "TargetPosition",
@@ -210,19 +206,17 @@
           ],
           "LocalConstants": {
             "ninetyDegRotation": true
-          },
-          "subtype": "SUB_cfb757e2-8765-4403-82dd-62d7f6ad4c42"
+          }
         }
-      ],
-      "UUID": "0bddaafe-f489-479a-84ca-75334cf378bd"
+      ]
     },
     {
-      "DeviceName": "Brise-soleil (Louis Ouest)",
+      "DeviceName": "Brise soleil ouest Louis",
       "Services": [
         {
           "ServiceType": "WindowCovering",
           "Handler": "WindowCoveringTilt",
-          "ServiceName": "Brise-soleil O",
+          "ServiceName": "Brise soleil ouest Louis",
           "Characteristics": [
             {
               "Type": "TargetPosition",
@@ -279,18 +273,16 @@
           ],
           "LocalConstants": {
             "ninetyDegRotation": true
-          },
-          "subtype": "SUB_f883f2f8-87d1-4cab-8890-a014f39abe67"
+          }
         }
-      ],
-      "UUID": "6f8f1ad5-0a80-41de-92f5-06dc844e4e9b"
+      ]
     },
     {
-      "DeviceName": "Sol",
+      "DeviceName": "Sol terrasses jardin",
       "Services": [
         {
           "ServiceType": "Lightbulb",
-          "ServiceName": "Sol",
+          "ServiceName": "Sol terrasses jardin",
           "Characteristics": [
             {
               "Type": "On",
@@ -301,18 +293,16 @@
                 "0/1/4"
               ]
             }
-          ],
-          "subtype": "SUB_300df432-20f7-4c0a-bf08-2a6ffacfa9b3"
+          ]
         }
-      ],
-      "UUID": "7b99d09f-3a78-4d37-9170-9bad1a905aaa"
+      ]
     },
     {
-      "DeviceName": "Terrasse E",
+      "DeviceName": "Terrasse est jardin",
       "Services": [
         {
           "ServiceType": "Lightbulb",
-          "ServiceName": "Terrasse E",
+          "ServiceName": "Terrasse est jardin",
           "Characteristics": [
             {
               "Type": "On",
@@ -323,18 +313,16 @@
                 "0/1/1"
               ]
             }
-          ],
-          "subtype": "SUB_7fc2fa6d-c378-41de-b635-92d7cecc70bc"
+          ]
         }
-      ],
-      "UUID": "c15012db-509f-498f-bfb5-be5e77dee493"
+      ]
     },
     {
-      "DeviceName": "Terrasse N",
+      "DeviceName": "Terrasse nord jardin",
       "Services": [
         {
           "ServiceType": "Lightbulb",
-          "ServiceName": "Terrasse N",
+          "ServiceName": "Terrasse nord jardin",
           "Characteristics": [
             {
               "Type": "On",
@@ -345,18 +333,16 @@
                 "0/0/2"
               ]
             }
-          ],
-          "subtype": "SUB_7cbb8f6b-905b-4b87-bc3a-5095943fe0c7"
+          ]
         }
-      ],
-      "UUID": "06602bfb-d22c-4681-afc0-de5e65353b5c"
+      ]
     },
     {
-      "DeviceName": "Terrasse O",
+      "DeviceName": "Terrasse ouest jardin",
       "Services": [
         {
           "ServiceType": "Lightbulb",
-          "ServiceName": "Terrasse O",
+          "ServiceName": "Terrasse ouest jardin",
           "Characteristics": [
             {
               "Type": "On",
@@ -367,18 +353,16 @@
                 "0/0/3"
               ]
             }
-          ],
-          "subtype": "SUB_cb5d728b-7fb2-427f-ae0e-0d4dc59ca3b9"
+          ]
         }
-      ],
-      "UUID": "d8ec9744-c509-46bf-a20e-67b716cb1722"
+      ]
     },
     {
-      "DeviceName": "Escaliers",
+      "DeviceName": "Escaliers terrasses jardin",
       "Services": [
         {
           "ServiceType": "Lightbulb",
-          "ServiceName": "Escaliers",
+          "ServiceName": "Escaliers terrasses jardin",
           "Characteristics": [
             {
               "Type": "On",
@@ -389,18 +373,16 @@
                 "0/1/5"
               ]
             }
-          ],
-          "subtype": "SUB_02d9ef3a-8ba0-4acf-91e9-a546cc4461c4"
+          ]
         }
-      ],
-      "UUID": "7e55a664-1acd-49f4-9ccc-327f1250dfe2"
+      ]
     },
     {
-      "DeviceName": "Piscine",
+      "DeviceName": "Lumière piscine",
       "Services": [
         {
           "ServiceType": "Lightbulb",
-          "ServiceName": "Piscine",
+          "ServiceName": "Lumière piscine",
           "Characteristics": [
             {
               "Type": "On",
@@ -411,11 +393,9 @@
                 "0/1/6"
               ]
             }
-          ],
-          "subtype": "SUB_d42b1324-977d-494b-b37f-7326c9885891"
+          ]
         }
-      ],
-      "UUID": "6a05970e-1280-4bdf-95df-007ed2f43210"
+      ]
     },
     {
       "DeviceName": "Mur piscine",
@@ -433,11 +413,9 @@
                 "0/1/7"
               ]
             }
-          ],
-          "subtype": "SUB_594e385d-0863-4194-9a17-f69a316341c3"
+          ]
         }
-      ],
-      "UUID": "6bed0c41-0836-4aa1-b073-cfaec39bf3db"
+      ]
     },
     {
       "DeviceName": "Pompe piscine",
@@ -455,11 +433,9 @@
                 "2/4/2"
               ]
             }
-          ],
-          "subtype": "SUB_874f252b-b2bc-4811-9269-3b7a9524d108"
+          ]
         }
-      ],
-      "UUID": "250b72b8-f074-47a1-bb9b-d0ccde376bf7"
+      ]
     },
     {
       "DeviceName": "Pompe à chaleur piscine",
@@ -477,11 +453,9 @@
                 "2/4/3"
               ]
             }
-          ],
-          "subtype": "SUB_ac7562c1-de67-4888-a10f-a0b026d83b6e"
+          ]
         }
-      ],
-      "UUID": "433fedf5-de9a-4f63-a0ae-a51ed8497236"
+      ]
     },
     {
       "DeviceName": "Arrosage 1",
@@ -499,11 +473,9 @@
                 "2/5/4"
               ]
             }
-          ],
-          "subtype": "SUB_ad11a332-8a21-4135-b4bd-5fcce3d928ab"
+          ]
         }
-      ],
-      "UUID": "695363ef-3e2c-4c14-8e76-0813ca178419"
+      ]
     },
     {
       "DeviceName": "Arrosage 2",
@@ -521,11 +493,9 @@
                 "2/5/5"
               ]
             }
-          ],
-          "subtype": "SUB_8cbbf934-742e-4ec9-8531-48004eacee77"
+          ]
         }
-      ],
-      "UUID": "f3f7c0dc-0034-4760-83a7-40ee74b1d868"
+      ]
     },
     {
       "DeviceName": "Arrosage 3",
@@ -543,11 +513,9 @@
                 "2/5/6"
               ]
             }
-          ],
-          "subtype": "SUB_7a1f6540-0ab3-4908-b2e3-43f6eae8bd8e"
+          ]
         }
-      ],
-      "UUID": "27cd7457-6ed7-479a-acb0-19bc1875f82f"
+      ]
     },
     {
       "DeviceName": "Arrosage 4",
@@ -565,11 +533,9 @@
                 "2/5/7"
               ]
             }
-          ],
-          "subtype": "SUB_29f616ff-7824-486b-8b9b-0e4f7378c504"
+          ]
         }
-      ],
-      "UUID": "4edcfeb6-ad7f-42e9-be25-f791bc31a2a9"
+      ]
     },
     {
       "DeviceName": "Température",
@@ -584,11 +550,9 @@
                 "8/1/0"
               ]
             }
-          ],
-          "subtype": "SUB_50d81098-f69d-410c-881a-75540b6a461a"
+          ]
         }
-      ],
-      "UUID": "78def433-f8e2-4be8-a3a7-dead7b1513fb"
+      ]
     },
     {
       "DeviceName": "Température piscine",
@@ -603,11 +567,9 @@
                 "8/1/2"
               ]
             }
-          ],
-          "subtype": "SUB_9bd6785c-e038-4a1d-b2a3-28dc95751a89"
+          ]
         }
-      ],
-      "UUID": "890a05fb-090d-4de4-8090-1893f79b24aa"
+      ]
     },
     {
       "DeviceName": "TempératureExt",
@@ -622,18 +584,16 @@
                 "8/0/1"
               ]
             }
-          ],
-          "subtype": "SUB_d1323b81-be4d-43af-aad6-0a44baaf6c52"
+          ]
         }
-      ],
-      "UUID": "17cd63c2-6a27-44e4-a9d3-2e8205d1aa96"
+      ]
     },
     {
-      "DeviceName": "VerrouillageVoletPiscine",
+      "DeviceName": "Verrouillage volet piscine",
       "Services": [
         {
           "ServiceType": "LockMechanism",
-          "ServiceName": "VerrouillageVoletPiscine",
+          "ServiceName": "Verrouillage volet piscine",
           "Characteristics": [
             {
               "Type": "LockCurrentState",
@@ -648,19 +608,17 @@
               ],
               "DPT": "DPT1"
             }
-          ],
-          "subtype": "SUB_04c8c5d8-b889-4965-a563-377b6b146357"
+          ]
         }
-      ],
-      "UUID": "0af8edf2-cd06-4d0c-9fab-c1ed2a16ed64"
+      ]
     },
     {
-      "DeviceName": "Brise-soleil (Charles)",
+      "DeviceName": "Volet piscine",
       "Services": [
         {
           "ServiceType": "WindowCovering",
           "Handler": "WindowCoveringTilt",
-          "ServiceName": "Volet",
+          "ServiceName": "Volet piscine",
           "Characteristics": [
             {
               "Type": "TargetPosition",
@@ -695,18 +653,16 @@
           ],
           "LocalConstants": {
             "ninetyDegRotation": true
-          },
-          "subtype": "SUB_f1295510-b87c-430a-aacf-5b0cc34962d8"
+          }
         }
-      ],
-      "UUID": "440f9301-5042-49d8-b0a0-2cf06ac799ae"
+      ]
     },
     {
-      "DeviceName": "Table repas",
+      "DeviceName": "Table repas jardin",
       "Services": [
         {
           "ServiceType": "Lightbulb",
-          "ServiceName": "Table repas",
+          "ServiceName": "Table repas jardin",
           "Characteristics": [
             {
               "Type": "On",
@@ -717,11 +673,9 @@
                 "0/1/8"
               ]
             }
-          ],
-          "subtype": "SUB_8b441aa6-3c99-4a44-b92c-08db212fc70a"
+          ]
         }
-      ],
-      "UUID": "b978746b-728c-4a99-97db-b4650ca64781"
+      ]
     }
   ],
   "GroupAddresses": []
