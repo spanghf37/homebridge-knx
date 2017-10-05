@@ -26,7 +26,7 @@ RUN mkdir -p /var/run/dbus
 # CMD ["/root/run.sh"]
  
  CMD set -xe \
-     && rm -f /var/run/dbus.pid \
+     && rm -f /var/run/dbus/pid \
      && dbus-daemon --system \
      && rm -f /var/run/avahi-daemon/pid \
      && avahi-daemon -D \
