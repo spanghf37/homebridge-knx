@@ -10,5 +10,5 @@ Copy and edit ```config.json``` and ```knx_config.json``` to ```/home/docker/hom
 # 2. docker run command
 
 ```
-docker run -p 5353:5353 -p 51826:51826 --net=host -v /home/docker/homebridge/:/root/.homebridge/ spanghf37/homebridge-knx:latest
+docker run --restart=always -p 5353:5353 -p 51826:51826 --net=host -v /home/docker/homebridge/:/root/.homebridge/ spanghf37/homebridge-knx:latest
 ```
