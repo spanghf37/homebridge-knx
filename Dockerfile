@@ -1,6 +1,4 @@
-FROM arm64v8/node:latest
-
-COPY tmp/qemu-aarch64-static /usr/bin/qemu-aarch64-static
+FROM amd64/node:latest
 
 RUN apt-get update
 
