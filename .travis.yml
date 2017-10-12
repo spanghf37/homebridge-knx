@@ -11,9 +11,6 @@ script:
 - >
   # if [ "$TRAVIS_BRANCH" == "master" ]; then
     docker login -u="$DOCKER_USER" -p="$DOCKER_PASS"
-    TAG=$(grep "FROM " Dockerfile | sed 's/.*://')
-    docker tag spanghf37/homebridge-knx spanghf37/homebridge-knx:$TAG
     docker tag spanghf37/homebridge-knx spanghf37/homebridge-knx:amd64
-    docker push spanghf37/homebridge-knx:$TAG
     docker push spanghf37/homebridge-knx:amd64
   # fi
