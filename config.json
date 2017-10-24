@@ -1,9 +1,9 @@
 {
         "bridge": {
-                "name": "Homebridge",
-                "username": "A1:B2:C3:D4:E5:F6",
+                "name": "bridge2",
+                "username": "F1:F2:F3:F4:F5:F6",
                 "port": 51826,
-                "pin": "234-56-789"
+                "pin": "321-56-987"
         },
         "description": "This is an example configuration file for KNX platform shim",
         "platforms": [
