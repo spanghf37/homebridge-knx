@@ -1,5 +1,5 @@
 {
-	"knxd_ip": "192.168.0.41",
+	"knxd_ip": "192.168.0.30",
 	"knxd_port": 6720,
 	"AllowWebserver": true,
 	"AllowKillHomebridge": true,
@@ -68,10 +68,8 @@
 				],
 				"LocalConstants": {
 					"ninetyDegRotation": true
-				},
-				"subtype": "SUB_380bc243-85b4-443a-96ee-94f1d817ce03"
-			}],
-			"UUID": "d5001723-8cdb-46e1-99cd-c7759d876094"
+				}
+			}]
 		},
 		{
 			"DeviceName": "Brise soleil Héloïse",
@@ -132,10 +130,8 @@
 				],
 				"LocalConstants": {
 					"ninetyDegRotation": true
-				},
-				"subtype": "SUB_8dc82777-33de-4169-a327-b2037e282271"
-			}],
-			"UUID": "bdcbfe8f-e889-4de2-90fa-04cac7cd3c56"
+				}
+			}]
 		},
 		{
 			"DeviceName": "Brise soleil sud Louis",
@@ -196,10 +192,8 @@
 				],
 				"LocalConstants": {
 					"ninetyDegRotation": true
-				},
-				"subtype": "SUB_9f81db33-ba73-4bcb-939f-da5f431de4ce"
-			}],
-			"UUID": "68c72710-aa92-4193-9423-65e3e8f2121c"
+				}
+			}]
 		},
 		{
 			"DeviceName": "Brise soleil ouest Louis",
@@ -260,10 +254,8 @@
 				],
 				"LocalConstants": {
 					"ninetyDegRotation": true
-				},
-				"subtype": "SUB_a5415679-f315-4a51-aaf5-b00fa52537e4"
-			}],
-			"UUID": "d60abfcf-223c-4f5c-aab7-677a92829128"
+				}
+			}]
 		},
 		{
 			"DeviceName": "Sol terrasses jardin",
@@ -278,10 +270,8 @@
 					"Listen": [
 						"0/1/4"
 					]
-				}],
-				"subtype": "SUB_1c4028b3-963d-4d52-b89c-5448f611ab8c"
-			}],
-			"UUID": "60f189ba-4584-4f68-9638-7b7be58019f5"
+				}]
+			}]
 		},
 		{
 			"DeviceName": "Terrasse est jardin",
@@ -296,10 +286,8 @@
 					"Listen": [
 						"0/1/1"
 					]
-				}],
-				"subtype": "SUB_97e91dc4-5429-4c95-bb9b-a256f9b58509"
-			}],
-			"UUID": "15308666-4c29-416c-9c44-eced57a58605"
+				}]
+			}]
 		},
 		{
 			"DeviceName": "Terrasse nord jardin",
@@ -314,10 +302,8 @@
 					"Listen": [
 						"0/0/2"
 					]
-				}],
-				"subtype": "SUB_69e73aed-3251-4ea5-bd64-dda0e51308aa"
-			}],
-			"UUID": "d9665001-89e8-4adc-b369-7978bd26d594"
+				}]
+			}]
 		},
 		{
 			"DeviceName": "Terrasse ouest jardin",
@@ -332,10 +318,8 @@
 					"Listen": [
 						"0/0/3"
 					]
-				}],
-				"subtype": "SUB_96c9d6a7-7601-434f-aefd-8dc35942f6bd"
-			}],
-			"UUID": "2d4159e2-e3c0-4bb1-885b-4d6c0e1f97de"
+				}]
+			}]
 		},
 		{
 			"DeviceName": "Escaliers terrasses jardin",
@@ -350,10 +334,8 @@
 					"Listen": [
 						"0/1/5"
 					]
-				}],
-				"subtype": "SUB_67f9e9f7-fd6e-49e6-ba66-dc6949097c24"
-			}],
-			"UUID": "faef72c5-715f-4fc0-8bc0-80c71fe03190"
+				}]
+			}]
 		},
 		{
 			"DeviceName": "Lumière piscine",
@@ -368,10 +350,8 @@
 					"Listen": [
 						"0/1/6"
 					]
-				}],
-				"subtype": "SUB_88ce395e-ec5f-485e-b12d-e8ba7e64201b"
-			}],
-			"UUID": "7bffab4e-3092-4d72-9283-59c8d2944710"
+				}]
+			}]
 		},
 		{
 			"DeviceName": "Mur piscine",
@@ -386,10 +366,8 @@
 					"Listen": [
 						"0/1/7"
 					]
-				}],
-				"subtype": "SUB_5276bf87-06f7-4ced-b31f-7a7db8c28916"
-			}],
-			"UUID": "9ff62a23-c86b-4c74-a878-d2d8f692586c"
+				}]
+			}]
 		},
 		{
 			"DeviceName": "Pompe piscine",
@@ -404,10 +382,8 @@
 					"Listen": [
 						"2/4/2"
 					]
-				}],
-				"subtype": "SUB_714ee624-c0f9-4e5c-aa0a-617b6ecf9082"
-			}],
-			"UUID": "2c8acfc5-9dd8-4950-940c-7974915c9714"
+				}]
+			}]
 		},
 		{
 			"DeviceName": "Pompe à chaleur piscine",
@@ -422,10 +398,8 @@
 					"Listen": [
 						"2/4/3"
 					]
-				}],
-				"subtype": "SUB_9f3e1cdc-1ffb-4711-acac-c582bcbd5944"
-			}],
-			"UUID": "59736d00-bd2d-4785-bfd9-f59f8ca607e9"
+				}]
+			}]
 		},
 		{
 			"DeviceName": "Arrosage 1",
@@ -440,10 +414,8 @@
 					"Listen": [
 						"2/5/4"
 					]
-				}],
-				"subtype": "SUB_b27437fa-56e1-4840-ad21-9ab7e6f2d63f"
-			}],
-			"UUID": "85afd8ad-5cc1-4b50-8b31-0d757c321083"
+				}]
+			}]
 		},
 		{
 			"DeviceName": "Arrosage 2",
@@ -458,10 +430,8 @@
 					"Listen": [
 						"2/5/5"
 					]
-				}],
-				"subtype": "SUB_c08d4d99-b681-4cae-88cd-94b438dc3131"
-			}],
-			"UUID": "5f34f4df-057a-48b8-81e1-7af5929d6e95"
+				}]
+			}]
 		},
 		{
 			"DeviceName": "Arrosage 3",
@@ -476,10 +446,8 @@
 					"Listen": [
 						"2/5/6"
 					]
-				}],
-				"subtype": "SUB_29505612-fbc7-4417-93ec-61c268b10b99"
-			}],
-			"UUID": "9ee7bda0-6b64-42f6-b759-dcd86a80a2d6"
+				}]
+			}]
 		},
 		{
 			"DeviceName": "Arrosage 4",
@@ -494,10 +462,8 @@
 					"Listen": [
 						"2/5/7"
 					]
-				}],
-				"subtype": "SUB_942720bc-e299-4225-81a8-bc9276225bdf"
-			}],
-			"UUID": "ca4005d9-7200-4ebd-ad8d-763813ebdfeb"
+				}]
+			}]
 		},
 		{
 			"DeviceName": "Température",
@@ -509,10 +475,8 @@
 					"Listen": [
 						"8/1/0"
 					]
-				}],
-				"subtype": "SUB_ae6814fc-f29f-4bad-9e0d-0da120f5774f"
-			}],
-			"UUID": "baa6ff5b-e20e-44d9-8ef3-4dd37862ba92"
+				}]
+			}]
 		},
 		{
 			"DeviceName": "Température piscine",
@@ -524,10 +488,8 @@
 					"Listen": [
 						"8/1/2"
 					]
-				}],
-				"subtype": "SUB_66bc8307-f235-4eed-be80-34bd9e42b2e6"
-			}],
-			"UUID": "0b5185c6-08da-497d-8622-1edc6eedc586"
+				}]
+			}]
 		},
 		{
 			"DeviceName": "TempératureExt",
@@ -539,10 +501,8 @@
 					"Listen": [
 						"8/0/1"
 					]
-				}],
-				"subtype": "SUB_41e4e83a-a6b3-4a2a-906d-33332c9e300b"
-			}],
-			"UUID": "85235498-3035-4d2f-bce1-c7f91bb43cf2"
+				}]
+			}]
 		},
 		{
 			"DeviceName": "Verrouillage volet piscine",
@@ -562,10 +522,8 @@
 						],
 						"DPT": "DPT1"
 					}
-				],
-				"subtype": "SUB_10515bd6-b5d4-42c7-9129-3eed554b47b6"
-			}],
-			"UUID": "1bbb58e9-0b0c-451f-af8d-459b76aa5420"
+				]
+			}]
 		},
 		{
 			"DeviceName": "Volet piscine",
@@ -604,10 +562,8 @@
 				],
 				"LocalConstants": {
 					"ninetyDegRotation": true
-				},
-				"subtype": "SUB_6de9cc43-b7de-4639-85c9-57363ce7f2f4"
-			}],
-			"UUID": "fde8557b-99cc-4b77-8a77-d8b153d2d0b6"
+				}
+			}]
 		},
 		{
 			"DeviceName": "LED Groupe Jardin Piscine",
@@ -638,10 +594,8 @@
 					"Listen": [
 						"0/1/8"
 					]
-				}],
-				"subtype": "SUB_6d3b2a8f-6736-4a29-9cad-960189f89a0c"
-			}],
-			"UUID": "4acbb65b-ea79-4aff-8ae8-33b95089175d"
+				}]
+			}]
 		}
 	],
 	"GroupAddresses": []
