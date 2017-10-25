@@ -370,17 +370,33 @@
 			}]
 		},
 		{
-			"DeviceName": "Pompe piscine",
+			"DeviceName": "Filtration piscine",
 			"Services": [{
 				"ServiceType": "Switch",
-				"ServiceName": "Pompe piscine",
+				"ServiceName": "Filtration piscine",
 				"Characteristics": [{
 					"Type": "On",
 					"Set": [
-						"2/4/0"
+						"2/4/18"
 					],
 					"Listen": [
-						"2/4/2"
+						"2/4/19"
+					]
+				}]
+			}]
+		},
+		{
+			"DeviceName": "Nettoyage intégré piscine",
+			"Services": [{
+				"ServiceType": "Switch",
+				"ServiceName": "Nettoyage intégré piscine",
+				"Characteristics": [{
+					"Type": "On",
+					"Set": [
+						"2/4/20"
+					],
+					"Listen": [
+						"2/4/21"
 					]
 				}]
 			}]
@@ -429,38 +445,6 @@
 					],
 					"Listen": [
 						"2/5/5"
-					]
-				}]
-			}]
-		},
-		{
-			"DeviceName": "Arrosage 3",
-			"Services": [{
-				"ServiceType": "Switch",
-				"ServiceName": "Arrosage 3",
-				"Characteristics": [{
-					"Type": "On",
-					"Set": [
-						"2/5/2"
-					],
-					"Listen": [
-						"2/5/6"
-					]
-				}]
-			}]
-		},
-		{
-			"DeviceName": "Arrosage 4",
-			"Services": [{
-				"ServiceType": "Switch",
-				"ServiceName": "Arrosage 4",
-				"Characteristics": [{
-					"Type": "On",
-					"Set": [
-						"2/5/3"
-					],
-					"Listen": [
-						"2/5/7"
 					]
 				}]
 			}]
