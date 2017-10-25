@@ -386,26 +386,26 @@
 			}]
 		},
 		{
-			"DeviceName": "Nettoyage intégré piscine",
+			"DeviceName": "Nettoyage piscine",
 			"Services": [{
 				"ServiceType": "Switch",
-				"ServiceName": "Nettoyage intégré piscine",
+				"ServiceName": "Nettoyage piscine",
 				"Characteristics": [{
 					"Type": "On",
 					"Set": [
-						"2/4/20"
+						"2/4/18"
 					],
 					"Listen": [
-						"2/4/21"
+						"2/4/19"
 					]
 				}]
 			}]
 		},
 		{
-			"DeviceName": "Pompe à chaleur piscine",
+			"DeviceName": "Chauffage piscine",
 			"Services": [{
 				"ServiceType": "Switch",
-				"ServiceName": "Pompe à chaleur piscine",
+				"ServiceName": "Chauffage piscine",
 				"Characteristics": [{
 					"Type": "On",
 					"Set": [
