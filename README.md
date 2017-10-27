@@ -2,3 +2,5 @@
 
 # homebridge-knx
 homebridge-knx docker container for amd64bits
+
+See main app: https://github.com/spanghf37/knx-control
