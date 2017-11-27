@@ -1,6 +1,6 @@
-FROM arm64v8/node:latest
+FROM arm32v6/node:latest
 
-COPY tmp/qemu-aarch64-static /usr/bin/qemu-aarch64-static
+COPY tmp/qemu-arm-static /usr/bin/qemu-arm-static
 
 RUN apt-get update
 
