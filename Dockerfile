@@ -1,4 +1,4 @@
-FROM amd64/node:alpine
+FROM amd64/node
 
 RUN apt-get update
 
