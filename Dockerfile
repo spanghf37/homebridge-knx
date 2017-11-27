@@ -1,4 +1,4 @@
-FROM arm32v6/node:alpine
+FROM arm32v7/node
 
 COPY tmp/qemu-arm-static /usr/bin/qemu-arm-static
 
