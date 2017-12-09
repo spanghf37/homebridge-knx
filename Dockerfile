@@ -3,7 +3,7 @@ FROM arm32v7/node:8.9.3
 COPY tmp/qemu-arm-static /usr/bin/qemu-arm-static
 
 RUN apt-get update \
-    && apt-get upgrade
+    && apt-get upgrade -y
 
 RUN apt-get install -y curl sudo wget libavahi-compat-libdnssd-dev dbus avahi-daemon make g++ build-essential avahi-discover libnss-mdns
 
