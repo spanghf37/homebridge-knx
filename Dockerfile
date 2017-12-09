@@ -15,7 +15,11 @@ RUN wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.33.6/install.s
 
 RUN export NVM_DIR="$HOME/.nvm" && [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
 
-RUN command -v nvm && nvm install 8.9.2 && nvm use 8.9.2
+RUN command -v nvm 
+
+RUN nvm install 8.9.2 
+
+RUN nvm use 8.9.2
 
 RUN npm install -g wiringpi-node --unsafe-perm
 
