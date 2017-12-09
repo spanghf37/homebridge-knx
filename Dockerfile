@@ -11,8 +11,6 @@ RUN sed -i.bak 's/^#enable-dbus/enable-dbus/' /etc/avahi/avahi-daemon.conf
 
 RUN git clone git://git.drogon.net/wiringPi && cd wiringPi && git pull origin && ./build
 
-RUN gpio -v
-
 RUN wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.33.6/install.sh | bash
 
 RUN export NVM_DIR="$HOME/.nvm" && [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
