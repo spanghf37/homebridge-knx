@@ -18,5 +18,5 @@ script:
 # - docker run spanghf37/homebridge-knx uname -a
 # push image
 - docker login -u="$DOCKER_USER" -p="$DOCKER_PASS"
-- docker tag spanghf37/homebridge-knx spanghf37/homebridge-knx:arm32
-- docker push spanghf37/homebridge-knx:arm32
+- docker tag spanghf37/homebridge-knx spanghf37/homebridge-knx:arm32chacon
+- docker push spanghf37/homebridge-knx:arm32chacon
