@@ -26,4 +26,4 @@ CMD set -xe \
      && dbus-daemon --system \
      && rm -f /var/run/avahi-daemon/pid \
      && avahi-daemon -D \
-     && sudo homebridge
+     && homebridge
